@@ -37,7 +37,7 @@ var getText = () => {
 
 var tweet = (tweetText) => {
     return new Promise((resolve, reject) => {
-        T.post('statuses/update', { status: tweetText }, function(err, data, response) {
+        T.post('statuses/update', {status: tweetText}, (err, data, response) => {
             if (err) {
                 reject(err.message);
             } else {
