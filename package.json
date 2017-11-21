@@ -1,0 +1,19 @@
+{
+  "name": "geziciler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "money": "^0.2.0",
+    "node-schedule": "^1.2.5",
+    "twit": "^2.2.9"
+  }
+}
