@@ -55,7 +55,7 @@ var logToFile = (message) => {
     });
 }
 
-schedule.scheduleJob({hour: 15, minute: 30}, () => {
+schedule.scheduleJob({hour: 17, minute: 00}, () => {
     executeTweet();
 });
 
